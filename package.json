@@ -1,0 +1,30 @@
+{
+  "name": "bcs-webapps",
+  "version": "1.0.0",
+  "description": "Backend for continuous sending",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathamer/BCS-WebApps.git"
+  },
+  "author": "Matija Hamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathamer/BCS-WebApps/issues"
+  },
+  "homepage": "https://github.com/mathamer/BCS-WebApps#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "nodemon": "^2.0.7"
+  }
+}
